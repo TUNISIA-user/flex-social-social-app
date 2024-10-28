@@ -46,10 +46,8 @@ const App = () => {
             <Route path='/MathPage' element={<><MathPage/></>} />
             <Route path='/auth' element={<><Auth/></>} />
             <Route path='/Admin/upload/page' element={<><ImageUpload/></>} />
-          <Route path='/' element={<><FIRSTVIEW/></>} /> */}
-             {/*  <Route path='/' element={<><Eroor/>
-            </>} />
-
+          <Route path='/' element={<><FIRSTVIEW/></>} /> 
+       
 
             <Route path='/bluskG' element={<><BuskyHome/></>} />
             <Route path='/card' element={<><Posts/></>} />
