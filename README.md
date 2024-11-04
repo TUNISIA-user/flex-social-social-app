@@ -1,7 +1,7 @@
    
 import React, { useEffect, useRef } from 'react';
   
-// Example Avatar component
+// Example Avatar component 
 const Avatar = ({ size, name, src }) => (
     <img 
         src={src} 
