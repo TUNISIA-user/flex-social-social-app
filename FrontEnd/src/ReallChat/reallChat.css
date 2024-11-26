@@ -1,8 +1,7 @@
 .reallchat{
     width: 100%;
-    height: 900px;
-    display: flex;
-    justify-content: center;
+    height: auto;
+  
    
 }
 .container--reallchat{
