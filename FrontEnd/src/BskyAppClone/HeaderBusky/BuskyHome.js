@@ -468,7 +468,7 @@ const HandelPushPost =async ()=>{
    const PushData = await axios.post(`/post-posts/${TokenUser._id}`,
     {
       post: {
-           text :   textareaRef.current.value,
+           text :   textareaRef?.current?.value,
            like : 0,
            share : 0,
            imgItem :image,
@@ -541,7 +541,7 @@ const HandelPushPost =async ()=>{
      userId:TokenUser._id,
      testeur:"Share",
      post:{
-         text:textAra,
+         text:textareaRef?.current?.value,
          like:0,
          share:0,
          imgItem:image
