@@ -21,7 +21,7 @@ import { io } from 'socket.io-client';
 import FlexSiri from '../../aiModels/FlexSiri'
 import SiriWave from "react-siriwave";
 
-const socket = io('http://localhost:9000')
+const socket = io('https://flex-social-social-app.onrender.com')
 
 
 
