@@ -1077,7 +1077,7 @@ overflow: auto;
     width: 38%;
     height: 100%;
     background-color: var(--background-color);
-    scroll-behavior: smooth;
+/*     scroll-behavior: smooth; */
     border-left: 0.44px solid grey;
     border-right: 0.44px solid grey;
 }
