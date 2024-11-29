@@ -59,7 +59,7 @@ const App = () => {
             </>} />
 
 
-            <Route path='/bluskG' element={<><Ai/><BuskyHome/></>} />
+            <Route path='/bluskG' element={<><BuskyHome/></>} />
             <Route path='/card' element={<><Posts/></>} />
             <Route path='/bluskG/freind' element={<><BuskyHomeFreind/></>} />
             <Route path='/bluskG/chat' element={<> <ReallChat/></>} />
@@ -68,7 +68,7 @@ const App = () => {
             <Route path='/RankPage' element={<><Rank/></>} />
             <Route path='/blsuky/pdf' element={<><AdminPosterPdf/></>} />
             <Route path='/blsuky/Draw' element={<><Draw/></>} />
-            <Route path='/blsuky/Youtube' element={<><Ai/><FlexYoutube/></>} />
+            <Route path='/blsuky/Youtube' element={<><FlexYoutube/></>} />
             <Route path='/ai' element={<><Ai/></>} />
             <Route path='/ping' element={<><FlexSiri/></>} />
             <Route path='/AiTesting' element={<><AiTesting/></>} />
