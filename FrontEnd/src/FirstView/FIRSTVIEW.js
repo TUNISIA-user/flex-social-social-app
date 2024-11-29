@@ -20,7 +20,7 @@ const   FIRSTVIEW = () => {
           style={{width: "90px",height:"90px",borderRadius:"100px"}}/></div>
           <div className='firstview__titile'> 
             <h1 className='ASKENET' style={{color:"white"}}>FLEX</h1>
-            <h4 className='whatsapp'  color='#e0d006'>What's up?     </h4>
+            <h4 className='whatsapp'  color='gold'>What's up?     </h4>
           </div>
 
 
